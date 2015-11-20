@@ -33,6 +33,8 @@ To install `petlib` type:
 
 The petlib documentation is [available on-line here](http://petlib.readthedocs.org/en/latest/index.html).
 - Red Hat is currently not supplying Elliptic Curve Crytography in the OpenSSL binary packages in their repositories due to concerns about patents. This causes a SegFault when trying to use the ECDSA functions ([Bugreport on Redhat Bugzilla](https://bugzilla.redhat.com/show_bug.cgi?id=319901)).
+- The installation can also be tricky on Mac or Windows. 
+- In that case the easiest way is to download a fully installed virtual machine of Ubuntu on [OSBoxes.org](https://www.osboxes.org/). Within those VMs you still have to install python, petlib and its dependencies, but it shouldn't cause any problems.
 - Make sure that all the pre-requisites for petlib (as described in the documentation) are installed.
 - Install py.test using pip or easy_install instead of the PPA of your distribution. This prevents version mismatch errors.
 
